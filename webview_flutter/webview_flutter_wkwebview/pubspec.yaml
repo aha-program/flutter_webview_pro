@@ -22,7 +22,10 @@ dependencies:
 
 #  webview_pro_platform_interface: ^1.9.0
   webview_pro_platform_interface:
-    path: ../webview_flutter_platform_interface
+    git:
+      url: https://github.com/aha-program/flutter_webview_pro.git
+      ref: main
+      path: webview_flutter/webview_flutter_platform_interface
 
   path: ^1.8.0
 
